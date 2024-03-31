@@ -1,10 +1,10 @@
 "use client";
 import Link from "next/link";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import HeadingBasic from "@/utility/HeadingBasic";
 import { FaEye, FaSearch } from "react-icons/fa";
 import { gameProjects, otherProjects, websiteProjects } from "@@/data/WorksData";
-import { useState } from "react";
 
 export default function WorksComponent() {
   return (
