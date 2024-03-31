@@ -17,22 +17,25 @@ export default function ColorPalette() {
       <div className="overflow-x-auto flex flex-col">
         {paletteColors.map((data, index) => (
           <motion.div
-            initial={{ y: -50, scale: 0.4, opacity: 0 }}
-            animate={{ y: 0, scale: 1, opacity: 1 }}
-            transition={{ delay: 4.4 + (index * 0.3) / 2 }}
+            // initial={{ y: -50, scale: 0.4, opacity: 0 }}
+            // animate={{ y: 0, scale: 1, opacity: 1 }}
+            // transition={{ delay: 4.4 + (index * 0.3) / 2 }}
             key={index}
             className="flex border-2 border-[#444D7E] rounded-xl my-1 p-2"
           >
             {/* Name */}
-            <p className="my-auto pr-3 md:w-[45%] w-[80%] md:font-bold md:text-xl">
+            <p className="my-auto pr-3 md:w-[45%] w-[80%] md:font-bold md:text-xl select-none">
               {data.name}
             </p>
-
             {/* Color */}
             <div
-              className="w-full h-11 my-auto outline outline-white rounded-md"
+              className="w-full h-11 my-auto outline outline-white rounded-md flex"
               style={{ background: data.hex }}
-            />
+            >
+              <p className="bg-[#17191E] border-2 border-white my-auto ml-2 mr-auto px-2 rounded-full">
+                {data.hex}
+              </p>
+            </div>
           </motion.div>
         ))}
       </div>
