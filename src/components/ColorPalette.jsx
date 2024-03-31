@@ -17,9 +17,9 @@ export default function ColorPalette() {
       <div className="overflow-x-auto flex flex-col">
         {paletteColors.map((data, index) => (
           <motion.div
-            // initial={{ y: -50, scale: 0.4, opacity: 0 }}
-            // animate={{ y: 0, scale: 1, opacity: 1 }}
-            // transition={{ delay: 4.4 + (index * 0.3) / 2 }}
+            initial={{ y: -50, scale: 0.4, opacity: 0 }}
+            animate={{ y: 0, scale: 1, opacity: 1 }}
+            transition={{ delay: 4.4 + (index * 0.3) / 2 }}
             key={index}
             className="flex border-2 border-[#444D7E] rounded-xl my-1 p-2"
           >
