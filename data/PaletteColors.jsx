@@ -17,7 +17,7 @@ export const paletteColors = [
   },
   {
     name: "Cobalt Blue",
-    hex: "##0088CC",
+    hex: "#0088CC",
   },
   {
     name: "Arch Blue",
