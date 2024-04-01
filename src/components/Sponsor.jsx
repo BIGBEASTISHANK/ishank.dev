@@ -116,7 +116,7 @@ export default function SponsorComponent() {
                   className="m-auto group/chm hover:scale-[1.1] transition-all select-none outline-none"
                 >
                   <button className={"outline-none"}>
-                    <p className="md:text-lg text-base text-[#F6F9FC] py-1 px-3 border border-[#1793D1] rounded-full bg-[#0A0C0E] group-hover/chm:shadow-lg shadow-md group-hover/chm:shadow-[#1793D1]/50 shadow-[#1793D1]/50 transition-all">
+                    <p className="md:text-lg text-base text-[#F6F9FC] py-1 px-3 border border-[#1793D1] rounded-full bg-[#050607] group-hover/chm:shadow-lg shadow-md group-hover/chm:shadow-[#1793D1]/50 shadow-[#1793D1]/50 transition-all">
                       Download QR
                     </p>
                   </button>
@@ -152,25 +152,25 @@ export default function SponsorComponent() {
 
       <motion.div
         className={"px-8 flex flex-col"}
-        initial={{ y: -50, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 2.7 }}
+        // initial={{ y: -50, opacity: 0 }}
+        // animate={{ y: 0, opacity: 1 }}
+        // transition={{ delay: 2.7 }}
         id={"sponsorGoal"}
       >
         {/* Text */}
         <p className="text-[#F6F9FC] md:text-3xl text-2xl font-semibold mb-2 mx-auto">
           Monthly Goal: <span className={"text-[#0088CC]"}>{goalReached}</span>/
-          <span className={"text-red-400"}>{sponsorGoalAmount}</span>₹{" "}
+          <span className={"text-[#FF3333]"}>{sponsorGoalAmount}</span>₹{" "}
         </p>
 
         {/* Progress Bar */}
         <div
           className={
-            "w-full border-4 border-[#1793D1] rounded-full shadow-[#1793D1]/50 shadow-md"
+            "w-full border-4 border-[#3AB1F5] rounded-full shadow-[#3AB1F5]/50 shadow-md"
           }
         >
           <div
-            className={`p-1 bg-[#F6F9FC] rounded-full`}
+            className={`p-1 bg-[#FF3333] rounded-full`}
             style={{ width: `${barPercentage}%` }}
           />
         </div>
