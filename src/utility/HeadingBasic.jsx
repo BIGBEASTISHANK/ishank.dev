@@ -20,7 +20,7 @@ export default function HeadingBasic({
           className="font-bold md:text-3xl text-2xl md:mb-8 mb-5 scroll-mt-24"
           id={id}
         >
-          {url ? <Link href={url} className={"outline-none text-white"}>~/{heading}</Link> : <>~/{heading}</>}
+          {url ? <Link href={url} className={"outline-none text-[#F6F9FC]"}>~/{heading}</Link> : <>~/{heading}</>}
         </motion.h1>
       )}
 

@@ -47,7 +47,7 @@ export default function SponsorComponent() {
               <a
                 href="/discord"
                 target="_blank"
-                className="text-[#7799E5] hover:underline outline-none"
+                className="text-[#0088CC] hover:underline outline-none"
               >
                 <strong>Discord server</strong>
               </a>{" "}
@@ -60,7 +60,7 @@ export default function SponsorComponent() {
       />
 
       {/* Short Divider */}
-      <div className="w-[50%] h-[.125rem] my-7 bg-[#444D7E] z-10" />
+      <div className="w-[50%] h-[.125rem] my-7 bg-[#1793D1] z-10" />
 
       {/* UPI Transaction */}
       <HeadingBasic
@@ -81,7 +81,7 @@ export default function SponsorComponent() {
             transition={{ delay: 1.2 + (index * 0.3) / 2 }}
             className="select-none"
           >
-            <div className="bg-[#1E2028] border border-[#444D7E]/20 flex flex-col overflow-auto rounded-2xl hover:scale-[1.1] transition-all hover:shadow-xl shadow-md hover:shadow-[#444D7E]/50 shadow-[#444D7E]/50">
+            <div className="bg-[#0A0C0E] border border-[#1793D1]/20 flex flex-col overflow-auto rounded-2xl hover:scale-[1.1] transition-all hover:shadow-xl shadow-md hover:shadow-[#1793D1]/50 shadow-[#1793D1]/50">
               {/* Image */}
               <Image
                 src={data.imageUrl}
@@ -102,7 +102,7 @@ export default function SponsorComponent() {
                   className="m-auto group/chm hover:scale-[1.1] transition-all select-none outline-none"
                 >
                   <button className={"outline-none"}>
-                    <p className="md:text-lg text-base text-white py-1 px-3 border border-[#444D7E] rounded-full bg-[#1E2028] group-hover/chm:shadow-lg shadow-md group-hover/chm:shadow-[#444D7E]/50 shadow-[#444D7E]/50 transition-all">
+                    <p className="md:text-lg text-base text-[#F6F9FC] py-1 px-3 border border-[#1793D1] rounded-full bg-[#0A0C0E] group-hover/chm:shadow-lg shadow-md group-hover/chm:shadow-[#1793D1]/50 shadow-[#1793D1]/50 transition-all">
                       Open UPI
                     </p>
                   </button>
@@ -116,7 +116,7 @@ export default function SponsorComponent() {
                   className="m-auto group/chm hover:scale-[1.1] transition-all select-none outline-none"
                 >
                   <button className={"outline-none"}>
-                    <p className="md:text-lg text-base text-white py-1 px-3 border border-[#444D7E] rounded-full bg-[#1E2028] group-hover/chm:shadow-lg shadow-md group-hover/chm:shadow-[#444D7E]/50 shadow-[#444D7E]/50 transition-all">
+                    <p className="md:text-lg text-base text-[#F6F9FC] py-1 px-3 border border-[#1793D1] rounded-full bg-[#0A0C0E] group-hover/chm:shadow-lg shadow-md group-hover/chm:shadow-[#1793D1]/50 shadow-[#1793D1]/50 transition-all">
                       Download QR
                     </p>
                   </button>
@@ -128,7 +128,7 @@ export default function SponsorComponent() {
       </ul>
 
       {/* Divider */}
-      <div className="w-full h-[.125rem] my-12 bg-[#444D7E]" />
+      <div className="w-full h-[.125rem] my-12 bg-[#1793D1]" />
 
       {/* Non UPI Transaction */}
       <HeadingBasic
@@ -148,7 +148,7 @@ export default function SponsorComponent() {
       />
 
       {/* Divider */}
-      <div className="w-full h-[.125rem] my-12 bg-[#444D7E]" />
+      <div className="w-full h-[.125rem] my-12 bg-[#1793D1]" />
 
       <motion.div
         className={"px-8 flex flex-col"}
@@ -158,19 +158,19 @@ export default function SponsorComponent() {
         id={"sponsorGoal"}
       >
         {/* Text */}
-        <p className="text-white md:text-3xl text-2xl font-semibold mb-2 mx-auto">
-          Monthly Goal: <span className={"text-[#7799E5]"}>{goalReached}</span>/
+        <p className="text-[#F6F9FC] md:text-3xl text-2xl font-semibold mb-2 mx-auto">
+          Monthly Goal: <span className={"text-[#0088CC]"}>{goalReached}</span>/
           <span className={"text-red-400"}>{sponsorGoalAmount}</span>₹{" "}
         </p>
 
         {/* Progress Bar */}
         <div
           className={
-            "w-full border-4 border-[#444D7E] rounded-full shadow-[#444D7E]/50 shadow-md"
+            "w-full border-4 border-[#1793D1] rounded-full shadow-[#1793D1]/50 shadow-md"
           }
         >
           <div
-            className={`p-1 bg-white rounded-full`}
+            className={`p-1 bg-[#F6F9FC] rounded-full`}
             style={{ width: `${barPercentage}%` }}
           />
         </div>

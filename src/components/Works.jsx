@@ -21,7 +21,7 @@ export default function WorksComponent() {
               <a
                 href="/github"
                 target="_blank"
-                className="text-[#7799E5] hover:underline outline-none"
+                className="text-[#0088CC] hover:underline outline-none"
               >
                 <strong>GitHub</strong>
               </a>
@@ -69,7 +69,7 @@ function ProjectList({ id = "", name = "", projectData = [], titleDelay = 0 }) {
   return (
     <>
       {/* Short Divider */}
-      <div className="w-[50%] h-[.125rem] my-7 bg-[#444D7E] z-10" />
+      <div className="w-[50%] h-[.125rem] my-7 bg-[#1793D1] z-10" />
 
       {/* Project Heading */}
       <motion.h1
@@ -85,7 +85,7 @@ function ProjectList({ id = "", name = "", projectData = [], titleDelay = 0 }) {
         </Link>
 
         {/* Search bar */}
-        <div className="flex bg-[#242731] border border-[#444D7E] rounded-full px-4 md:mr-7 select-none font-normal md:text-base text-sm my-auto">
+        <div className="flex bg-[#050607] border border-[#1793D1] rounded-full px-4 md:mr-7 select-none font-normal md:text-base text-sm my-auto">
           <FaSearch className="my-auto mr-2" />
           {/* Input area */}
           <input
@@ -120,7 +120,7 @@ function ProjectList({ id = "", name = "", projectData = [], titleDelay = 0 }) {
               transition={{ delay: listAnimationDelay + (index * 0.3) / 2 }}
               className="scroll-mt-24"
             >
-              <div className="mb-5 flex flex-col bg-[#1E2028] border border-[#444D7E]/20 p-5 rounded-3xl hover:scale-[1.03] transition-all hover:shadow-lg shadow-md hover:shadow-[#444D7E]/50 shadow-[#444D7E]/50">
+              <div className="mb-5 flex flex-col bg-[#0A0C0E] border border-[#1793D1]/20 p-5 rounded-3xl hover:scale-[1.03] transition-all hover:shadow-lg shadow-md hover:shadow-[#1793D1]/50 shadow-[#1793D1]/50">
                 {/* Project title */}
                 <div className="flex">
                   <Link href={`#${data.title}`} className={"outline-none"}>
@@ -141,7 +141,7 @@ function ProjectList({ id = "", name = "", projectData = [], titleDelay = 0 }) {
                   target="_blank"
                   className="text-semibold hover:scale-[1.1] transition-all md:text-base text-sm mr-auto outline-none"
                 >
-                  <span className="flex group/readMore py-[0.15rem] px-[1rem] border border-[#444D7E]/20 rounded-full bg-[#30343D] hover:shadow-md shadow-sm hover:shadow-[#444D7E]/30 transition-all shadow-[#444D7E]/30">
+                  <span className="flex group/readMore py-[0.15rem] px-[1rem] border border-[#1793D1]/20 rounded-full bg-[#050607] hover:shadow-md shadow-sm hover:shadow-[#1793D1]/30 transition-all shadow-[#1793D1]/30">
                     View Project
                     <FaEye className="my-auto ml-2 group-hover/readMore:scale-[1.1] transition-all" />
                   </span>
@@ -158,7 +158,7 @@ function ProjectList({ id = "", name = "", projectData = [], titleDelay = 0 }) {
             <motion.li
               initial={{ y: 100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              className="px-5 py-2 bg-[#1E2028] border border-[#444D7E]/20 rounded-full text-red-500 md:text-base text-sm mx-auto text-center"
+              className="px-5 py-2 bg-[#0A0C0E] border border-[#1793D1]/20 rounded-full text-red-500 md:text-base text-sm mx-auto text-center"
             >
               Oops! No projects with that name. Check for mistake in your input.
             </motion.li>

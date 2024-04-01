@@ -11,7 +11,7 @@ export default function Footer() {
           <a
             href="/github"
             target="_blank"
-            className="text-[#7799E5] hover:underline outline-none"
+            className="text-[#0088CC] hover:underline outline-none"
           >
             BIGBEASTISHANK
           </a>

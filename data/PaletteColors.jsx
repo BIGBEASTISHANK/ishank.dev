@@ -4,6 +4,10 @@ export const paletteColors = [
     hex: "#050607",
   },
   {
+    name: "Semi Dark",
+    hex: "#0A0C0E",
+  },
+  {
     name: "Electric Blue",
     hex: "#3AB1F5",
   },

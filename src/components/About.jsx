@@ -22,7 +22,7 @@ export default function About() {
         <Image
           src={pfp}
           alt={"pfp"}
-          className="select-none rounded-full border-2 border-[#444D7E] hover:scale-[1.1] transition-all hover:shadow-xl shadow-lg hover:shadow-[#444D7E]/50 shadow-[#444D7E]/50"
+          className="select-none rounded-full border-2 border-[#1793D1] hover:scale-[1.1] transition-all hover:shadow-xl shadow-lg hover:shadow-[#1793D1]/50 shadow-[#1793D1]/50"
         />
       </motion.a>
 
@@ -65,7 +65,7 @@ export default function About() {
           <a
             href="/youtube"
             target="_blank"
-            className="text-[#7799E5] hover:underline outline-none"
+            className="text-[#0088CC] hover:underline outline-none"
           >
             <strong>YouTube</strong>
           </a>{" "}

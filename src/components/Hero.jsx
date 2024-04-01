@@ -19,7 +19,7 @@ export default function Hero() {
         <Image
           src={logo}
           alt={"logo"}
-          className="select-none rounded-2xl border-2 border-[#444D7E] hover:scale-[1.1] transition-all hover:shadow-xl shadow-lg hover:shadow-[#444D7E]/50 shadow-[#444D7E]/50"
+          className="select-none rounded-2xl border-2 border-[#1793D1] hover:scale-[1.1] transition-all hover:shadow-xl shadow-lg hover:shadow-[#1793D1]/50 shadow-[#1793D1]/50"
         />
       </motion.a>
 
@@ -69,7 +69,7 @@ export default function Hero() {
           transition={{ delay: 1 }}
           className={"outline-none"}
         >
-          <p className="md:mt-7 mt-4 md:text-lg text-base py-1 px-3 border border-[#444D7E] rounded-full bg-[#1E2028] group-hover/chm:shadow-lg shadow-md group-hover/chm:shadow-[#444D7E]/50 shadow-[#444D7E]/50 transition-all">
+          <p className="md:mt-7 mt-4 md:text-lg text-base py-1 px-3 border border-[#1793D1] rounded-full bg-[#0A0C0E] group-hover/chm:shadow-lg shadow-md group-hover/chm:shadow-[#1793D1]/50 shadow-[#1793D1]/50 transition-all">
             Contact/Hire Me
           </p>
         </motion.button>

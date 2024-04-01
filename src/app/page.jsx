@@ -10,22 +10,22 @@ export default function Home() {
       <Hero />
 
       {/* Divider */}
-      <div className="w-full h-[.125rem] my-12 bg-[#444D7E]" />
+      <div className="w-full h-[.125rem] my-12 bg-[#1793D1]" />
 
       <About />
 
       {/* Divider */}
-      <div className="w-full h-[.125rem] my-12 bg-[#444D7E]" />
+      <div className="w-full h-[.125rem] my-12 bg-[#1793D1]" />
 
       <Dotfile />
 
       {/* Divider */}
-      <div className="w-full h-[.125rem] my-12 bg-[#444D7E]" />
+      <div className="w-full h-[.125rem] my-12 bg-[#1793D1]" />
 
       <ColorPalette />
 
       {/* Divider */}
-      <div className="w-full h-[.125rem] my-12 bg-[#444D7E]" />
+      <div className="w-full h-[.125rem] my-12 bg-[#1793D1]" />
 
       <Skills />
     </>

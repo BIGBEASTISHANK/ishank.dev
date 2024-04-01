@@ -21,7 +21,7 @@ export default function ColorPalette() {
             animate={{ y: 0, scale: 1, opacity: 1 }}
             transition={{ delay: 4.4 + (index * 0.3) / 2 }}
             key={index}
-            className="flex border-2 border-[#444D7E] rounded-xl my-1 p-2"
+            className="flex border-2 border-[#1793D1] rounded-xl my-1 p-2"
           >
             {/* Name */}
             <p className="my-auto pr-3 md:w-[45%] w-[80%] md:font-bold md:text-xl select-none">
@@ -29,10 +29,10 @@ export default function ColorPalette() {
             </p>
             {/* Color */}
             <div
-              className="w-full h-11 my-auto outline outline-white rounded-md flex"
+              className="w-full h-11 my-auto outline outline-[#F6F9FC] rounded-md flex"
               style={{ background: data.hex }}
             >
-              <p className="bg-[#17191E] border-2 border-white my-auto ml-2 mr-auto px-2 rounded-full">
+              <p className="bg-[#050607] border-2 border-[#F6F9FC] my-auto ml-2 mr-auto px-2 rounded-full">
                 {data.hex}
               </p>
             </div>
