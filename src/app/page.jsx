@@ -1,7 +1,6 @@
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
-import Dotfile from "@/components/Dotfile";
 import ColorPalette from "@/components/ColorPalette";
 
 export default function Home() {
@@ -13,11 +12,6 @@ export default function Home() {
       <div className="w-full h-[.125rem] my-12 bg-[#1793D1]" />
 
       <About />
-
-      {/* Divider */}
-      <div className="w-full h-[.125rem] my-12 bg-[#1793D1]" />
-
-      <Dotfile />
 
       {/* Divider */}
       <div className="w-full h-[.125rem] my-12 bg-[#1793D1]" />
