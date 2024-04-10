@@ -10,7 +10,7 @@ export default function Skills() {
       <HeadingBasic
         heading="Skills"
         url="#skills"
-        animationDelay={5.95}
+        animationDelay={4.45}
         description={
           <>
             <p>
@@ -29,7 +29,7 @@ export default function Skills() {
             key={index}
             initial={{ y: 50, scale: 0.4, opacity: 0 }}
             animate={{ y: 0, scale: 1, opacity: 1 }}
-            transition={{ delay: 6.45 + (index * 0.3) / 2 }}
+            transition={{ delay: 4.95 + (index * 0.3) / 2 }}
             className="select-none"
           >
             <div className="bg-[#0A0C0E] border border-[#1793D1]/20 flex flex-col overflow-auto h-[8rem] md:w-[8rem] w-[6rem] rounded-2xl hover:scale-[1.1] transition-all hover:shadow-xl shadow-md hover:shadow-[#1793D1]/50 shadow-[#1793D1]/50">
