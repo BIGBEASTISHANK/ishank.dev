@@ -27,11 +27,6 @@ export const socialMedia = [
     link: "/linkedin",
   },
   {
-    label: "Matrix",
-    icon: SiMatrix,
-    link: "/matrix",
-  },
-  {
     label: "Fiverr",
     icon: TbBrandFiverr,
     link: "/fiverr",
@@ -55,15 +50,5 @@ export const socialMedia = [
     label: "Instagram",
     icon: FaInstagram,
     link: "/instagram",
-  },
-  {
-    label: "Twitter",
-    icon: FaTwitter,
-    link: "/twitter",
-  },
-  {
-    label: "Reddit",
-    icon: FaReddit,
-    link: "/reddit",
   },
 ];
