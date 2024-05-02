@@ -120,7 +120,7 @@ function ProjectList({ id = "", name = "", projectData = [], titleDelay = 0 }) {
               transition={{ delay: listAnimationDelay + (index * 0.3) / 2 }}
               className="scroll-mt-24"
             >
-              <div className="mb-5 flex flex-col bg-[#0A0C0E] border border-[#1793D1]/20 p-5 rounded-3xl hover:scale-[1.03] transition-all hover:shadow-lg shadow-md hover:shadow-[#1793D1]/50 shadow-[#1793D1]/50">
+              <div className="mb-5 flex flex-col bg-[#1C2024] border border-[#1793D1]/20 p-5 rounded-3xl hover:scale-[1.03] transition-all hover:shadow-lg shadow-md hover:shadow-[#1793D1]/50 shadow-[#1793D1]/50">
                 {/* Project title */}
                 <div className="flex">
                   <Link href={`#${data.title}`} className={"outline-none"}>
@@ -158,7 +158,7 @@ function ProjectList({ id = "", name = "", projectData = [], titleDelay = 0 }) {
             <motion.li
               initial={{ y: 100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              className="px-5 py-2 bg-[#0A0C0E] border border-[#1793D1]/20 rounded-full text-red-500 md:text-base text-sm mx-auto text-center"
+              className="px-5 py-2 bg-[#1C2024] border border-[#1793D1]/20 rounded-full text-red-500 md:text-base text-sm mx-auto text-center"
             >
               Oops! No projects with that name. Check for mistake in your input.
             </motion.li>

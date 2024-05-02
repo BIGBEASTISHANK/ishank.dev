@@ -19,7 +19,7 @@ export default function Navbar() {
               key={index}
               className={`${
                 data.url == pathName
-                  ? "bg-[#0A0C0E] border border-[#1793D1]/50"
+                  ? "bg-[#1C2024] border border-[#1793D1]/50"
                   : ""
               } rounded-lg md:py-[0.375rem] md:px-5 py-2 px-4 md:text-base text-sm select-none transition-all`}
             >

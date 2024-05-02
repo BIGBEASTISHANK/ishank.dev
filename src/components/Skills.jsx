@@ -32,7 +32,7 @@ export default function Skills() {
             transition={{ delay: 4.95 + (index * 0.3) / 2 }}
             className="select-none"
           >
-            <div className="bg-[#0A0C0E] border border-[#1793D1]/20 flex flex-col overflow-auto h-[8rem] md:w-[8rem] w-[6rem] rounded-2xl hover:scale-[1.1] transition-all hover:shadow-xl shadow-md hover:shadow-[#1793D1]/50 shadow-[#1793D1]/50">
+            <div className="bg-[#1C2024] border border-[#1793D1]/20 flex flex-col overflow-auto h-[8rem] md:w-[8rem] w-[6rem] rounded-2xl hover:scale-[1.1] transition-all hover:shadow-xl shadow-md hover:shadow-[#1793D1]/50 shadow-[#1793D1]/50">
               {/* Icons */}
               <div className="p-5">
                 <data.icon className="m-auto md:text-5xl text-4xl" />

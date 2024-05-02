@@ -12,7 +12,7 @@ export default function GoBackButton({animationDelay=0}) {
         initial={{ opacity: 0, scale: 0.4, y: 50 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
         transition={{ delay: animationDelay }}
-        className="md:mt-7 mt-4 md:text-lg text-base py-1 px-3 border rounded-full bg-[#0A0C0E] outline-none"
+        className="md:mt-7 mt-4 md:text-lg text-base py-1 px-3 border rounded-full bg-[#1C2024] outline-none"
       >
         Go To Home
       </motion.button>
