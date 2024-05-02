@@ -4,6 +4,10 @@ export const paletteColors = [
     hex: "#050607",
   },
   {
+    name: "Afternight Black",
+    hex: "#0A0C0E",
+  },
+  {
     name: "Semi Dark",
     hex: "#1C2024",
   },
