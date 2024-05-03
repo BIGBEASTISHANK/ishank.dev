@@ -1,18 +1,10 @@
 // Icons
 import {
   FaGithub,
-  FaReddit,
-  FaTwitter,
   FaYoutube,
   FaDiscord,
-  FaSpotify,
   FaLinkedin,
-  FaInstagram,
 } from "react-icons/fa";
-
-import { SiMatrix } from "react-icons/si";
-
-import { TbBrandFiverr } from "react-icons/tb";
 
 // Social Media
 export const socialMedia = [
@@ -27,16 +19,6 @@ export const socialMedia = [
     link: "/linkedin",
   },
   {
-    label: "Fiverr",
-    icon: TbBrandFiverr,
-    link: "/fiverr",
-  },
-  {
-    label: "Spotify",
-    icon: FaSpotify,
-    link: "/spotify",
-  },
-  {
     label: "YouTube",
     icon: FaYoutube,
     link: "/youtube",
@@ -45,10 +27,5 @@ export const socialMedia = [
     label: "Discord",
     icon: FaDiscord,
     link: "/discord",
-  },
-  {
-    label: "Instagram",
-    icon: FaInstagram,
-    link: "/instagram",
   },
 ];
