@@ -37,28 +37,8 @@
       "destination": "https://steamcommunity.com/id/bigbeastishank"
     },
     {
-      "source": "/twitter",
-      "destination": "https://twitter.com/bigbeastishank"
-    },
-    {
-      "source": "/facebook",
-      "destination": "https://www.facebook.com/bigbeastishank"
-    },
-    {
       "source": "/youtube",
       "destination": "https://www.youtube.com/c/BIGBEASTISHANK"
-    },
-    {
-      "source": "/reddit",
-      "destination": "https://www.reddit.com/r/bigbeastishank"
-    },
-    {
-      "source": "/replit",
-      "destination": "https://replit.com/@BIGBEASTISHANK"
-    },
-    {
-      "source": "/matrix",
-      "destination": "https://matrix.to/#/#bigbeastishank:matrix.org"
     },
     {
       "source": "/sourcecode",
@@ -67,10 +47,6 @@
     {
       "source": "/sc",
       "destination": "https://github.com/BIGBEASTISHANK/bigbeastishank.com/tree/V6"
-    },
-    {
-      "source": "/patreon",
-      "destination": "https://www.patreon.com/bigbeastishank"
     },
     {
       "source": "/license",
