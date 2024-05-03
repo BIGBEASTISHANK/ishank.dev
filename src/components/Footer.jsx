@@ -19,7 +19,7 @@ export default function Footer() {
       </p>
 
       {/* Social Media Icons */}
-      <div className="mt-5 md:text-2xl text-xl flex flex-wrap gap-5 justify-center mx-10">
+      <div className="mt-3 md:text-2xl text-xl flex flex-wrap gap-5 justify-center mx-10">
         {/* Icons */}
         {socialMedia.map((data, index) => (
           <Link
