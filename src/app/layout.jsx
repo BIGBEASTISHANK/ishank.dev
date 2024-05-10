@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ScrollProgressBar from "../utility/ScrollProgressBar";
-import { GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -50,6 +49,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="!scroll-smooth">
+      <head>
+        <script
+          src="https://cdn.counter.dev/script.js"
+          data-id="297190ea-2088-4f36-9e54-cadbfc8c65b7"
+          data-utcoffset="6"
+        ></script>
+      </head>
       <body
         className={`${inter.className} md:max-w-[45rem] max-w-[35rem] transition-all mx-auto md:pt-[7.5rem] pt-[5.5rem] text-[#F6F9FC] bg-[#050607]`}
       >
@@ -64,9 +70,6 @@ export default function RootLayout({ children }) {
         <div className="w-full h-[.125rem] mt-12 bg-[#1793D1]" />
         <Footer />
       </body>
-
-      {/* Google Analytics */}
-      <GoogleAnalytics gaId={process.env.gtag} />
     </html>
   );
 }
