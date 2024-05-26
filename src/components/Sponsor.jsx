@@ -64,9 +64,9 @@ export default function SponsorComponent() {
       {/* Note */}
       <HeadingBasic
         animationDelay={0.9}
-        heading="Non UPI Trasaction"
-        id={"nonUPITransaction"}
-        url="#nonUPITransaction"
+        heading="Important Notice"
+        id={"importantNotice"}
+        url="#importantNotice"
         description={
           <>
             <p className={"font-bold"}>
