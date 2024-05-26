@@ -8,8 +8,4 @@ export const navLinks = [
     name: "Works",
     url: "/works",
   },
-  {
-    name: "Sponsor",
-    url: "/sponsor",
-  },
 ];
