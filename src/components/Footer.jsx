@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="text-center justify-center items-center my-5">
-      {/* Thanking */}
+      {/* Credit */}
       <p className="md:text-base text-sm">
         Made with ❤️ by{" "}
         <strong>
@@ -16,6 +16,11 @@ export default function Footer() {
             BIGBEASTISHANK
           </a>
         </strong>
+      </p>
+
+      {/* Note */}
+      <p className="md:text-base text-sm text-gray-600">
+        Note: All the text has been written by Ishank and paraphrased by AI.
       </p>
 
       {/* Social Media Icons */}

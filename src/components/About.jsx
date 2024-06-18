@@ -69,7 +69,7 @@ export default function About() {
           >
             <strong>YouTube</strong>
           </a>{" "}
-          channel. Join the ride, hit that subscribe button, and let's turn
+          channel and I also play games LIVE there. Join the ride, hit that subscribe button, and let's turn
           the ordinary into extraordinary! 🚀👾
         </motion.p>
       </div>
