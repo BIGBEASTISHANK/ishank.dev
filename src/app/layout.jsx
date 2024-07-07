@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import { Inter } from "next/font/google";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/Layout/Navbar";
+import Footer from "@/components/Layout/Footer";
 import ScrollProgressBar from "../utility/ScrollProgressBar";
 
 const inter = Inter({ subsets: ["latin"] });
