@@ -9,8 +9,8 @@ export default function ColorPalette() {
       {/* Heading */}
       <HeadingBasic
         heading="Color Palette"
-        url="/#colorPalette"
-        animationDelay={2.5}
+        url="#colorPalette"
+        animationDelay={0.3}
       />
 
       {/* Table */}
@@ -19,7 +19,7 @@ export default function ColorPalette() {
           <motion.div
             initial={{ y: -50, scale: 0.4, opacity: 0 }}
             animate={{ y: 0, scale: 1, opacity: 1 }}
-            transition={{ delay: 2.8 + (index * 0.3) / 2 }}
+            transition={{ delay: 0.6 + (index * 0.3) / 2 }}
             key={index}
             className="flex border-2 border-[#1793D1] rounded-xl my-1 p-2"
           >

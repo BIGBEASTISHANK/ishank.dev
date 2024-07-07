@@ -16,11 +16,6 @@ export default function Home() {
       {/* Divider */}
       <div className="w-full h-[.125rem] my-12 bg-[#1793D1]" />
 
-      <ColorPalette />
-
-      {/* Divider */}
-      <div className="w-full h-[.125rem] my-12 bg-[#1793D1]" />
-
       <Skills />
     </>
   );
