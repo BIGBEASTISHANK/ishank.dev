@@ -36,7 +36,6 @@ export default function WorksComponent() {
         id="gameProjects"
         name="Game Projects"
         projectData={gameProjects}
-        titleDelay={0.7}
       />
 
       {/* Website Project */}
@@ -44,7 +43,6 @@ export default function WorksComponent() {
         id="websiteProjects"
         name="Website Projects"
         projectData={websiteProjects}
-        titleDelay={2}
       />
 
       {/* Other Project */}
@@ -52,13 +50,12 @@ export default function WorksComponent() {
         id="otherProjects"
         name="Other Projects"
         projectData={otherProjects}
-        titleDelay={3.45}
       />
     </div>
   );
 }
 
-function ProjectList({ id = "", name = "", projectData = [], titleDelay = 0 }) {
+function ProjectList({ id = "", name = "", projectData = [], titleDelay = 0.7 }) {
   // Searchbar variables
   const [sortedData, sortData] = useState("");
   // List variable
