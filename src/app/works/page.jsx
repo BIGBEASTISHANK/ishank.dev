@@ -1,4 +1,4 @@
-import WorksComponent from "@/components/Works";
+import WorksComponent from "@/components/(3) Works";
 
 // Meta data
 export const metadata = {

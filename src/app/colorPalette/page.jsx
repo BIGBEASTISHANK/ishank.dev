@@ -1,4 +1,4 @@
-import ColorPalettePalette from "@/components/ColorPalette";
+import ColorPalettePalette from "@/components/(5) ColorPalette";
 
 // Meta data
 export const metadata = {

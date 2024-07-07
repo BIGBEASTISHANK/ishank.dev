@@ -1,7 +1,7 @@
-import Hero from "@/components/Home/Hero";
-import About from "@/components/Home/About";
-import Skills from "@/components/Home/Skills";
-import ColorPalette from "@/components/ColorPalette";
+import Hero from "@/components/(2) Home/Hero";
+import About from "@/components/(2) Home/About";
+import Skills from "@/components/(2) Home/Skills";
+import ColorPalette from "@/components/(5) ColorPalette";
 
 export default function Home() {
   return (
