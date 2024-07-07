@@ -1,4 +1,4 @@
-import SponsorComponent from "@/components/Sponsors/Sponsor";
+import SponsorComponent from "@/components/(4) Sponsor";
 
 // Meta data
 export const metadata = {
