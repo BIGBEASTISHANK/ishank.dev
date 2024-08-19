@@ -1,9 +1,5 @@
 // Icons
-import {
-  FaGithub,
-  FaYoutube,
-  FaDiscord,
-} from "react-icons/fa";
+import { FaGithub, FaYoutube, FaDiscord, FaMastodon } from "react-icons/fa";
 
 // Social Media
 export const socialMedia = [
@@ -16,6 +12,11 @@ export const socialMedia = [
     label: "YouTube",
     icon: FaYoutube,
     link: "/youtube",
+  },
+  {
+    label: "Mastodon",
+    icon: FaMastodon,
+    link: "/mastodon",
   },
   {
     label: "Discord",
