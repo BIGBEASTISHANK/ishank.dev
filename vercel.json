@@ -17,6 +17,10 @@
       "destination": "https://mastodon.gamedev.place/@bigbeastishank"
     },
     {
+      "source": "/signal",
+      "destination": "https://signal.me/#eu/mpUcMlGPvkXC-1dLHtRGoWnDxKiq4ir4T__OW43cj-AhAgKyJFJPbrbj4ENm5wMC"
+    },
+    {
       "source": "/spotify",
       "destination": "https://open.spotify.com/user/n37h63t5acey8z9kqu3dwjp1l"
     },
