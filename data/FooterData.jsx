@@ -1,11 +1,6 @@
 // Icons
-import {
-  FaSignal,
-  FaGithub,
-  FaDiscord,
-  FaYoutube,
-  FaMastodon,
-} from "react-icons/fa";
+import { SiSignal } from "react-icons/si";
+import { FaGithub, FaDiscord, FaYoutube, FaMastodon } from "react-icons/fa";
 
 // Social Media
 export const socialMedia = [
@@ -21,7 +16,7 @@ export const socialMedia = [
   },
   {
     label: "Signal",
-    icon: FaSignal,
+    icon: SiSignal,
     link: "/signal",
   },
   {
