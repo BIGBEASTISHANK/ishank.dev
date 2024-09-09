@@ -70,7 +70,7 @@ export default function RootLayout({ children }) {
         <div className="w-full h-[.125rem] mt-12 bg-[#1793D1]" />
 
         {/* Mastodon link Verification */}
-        <a ref="me" className="hidden" href="https://mastodon.gamedev.place/@bigbeastishank" />
+        <a rel="me" className="hidden" href="https://mastodon.gamedev.place/@bigbeastishank" />
         <Footer />
       </body>
     </html>
