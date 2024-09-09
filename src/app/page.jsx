@@ -17,6 +17,7 @@ export default function Home() {
       <div className="w-full h-[.125rem] my-12 bg-[#1793D1]" />
 
       <Skills />
+      <a rel="me" href="https://mastodon.gamedev.place/@bigbeastishank">Mastodon</a>
     </>
   );
 }

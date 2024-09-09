@@ -22,7 +22,7 @@ export const socialMedia = [
   {
     label: "Mastodon",
     icon: FaMastodon,
-    link: "https://mastodon.gamedev.place/@bigbeastishank",
+    link: "/mastodon",
   },
   {
     label: "Discord",
