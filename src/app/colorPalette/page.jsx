@@ -14,8 +14,9 @@ export const metadata = {
     "C++",
     "Unreal Engine",
     "Unity",
+    "Color Palette",
   ],
-  images: "/img/metadata/sponsor.png",
+  images: "/img/metadata/colorPalette.png",
   locale: "en_US",
 
   openGraph: {
@@ -31,8 +32,9 @@ export const metadata = {
       "C++",
       "Unreal Engine",
       "Unity",
+      "Color Palette",
     ],
-    images: "/img/metadata/sponsor.png",
+    images: "/img/metadata/colorPalette.png",
     locale: "en_US",
   },
 };
