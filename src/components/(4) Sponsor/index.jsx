@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import HeadingBasic from "@/utility/HeadingBasic";
 import {
   goalReached,
-  sponsorAmount,
   barPercentage,
   sponsorGoalAmount,
 } from "@@/data/SponsorData";
@@ -62,7 +61,7 @@ export default function SponsorComponent() {
       <div className="w-[50%] h-[.125rem] my-7 bg-[#1793D1] z-10" />
 
       {/* Note */}
-      <HeadingBasic
+      {/* <HeadingBasic
         animationDelay={0.9}
         heading="Important Notice"
         id={"importantNotice"}
@@ -74,92 +73,44 @@ export default function SponsorComponent() {
             </p>
           </>
         }
-      />
+      /> */}
 
       {/* Transactions details */}
-      <div className="hidden">
+      <div>
         {/* UPI Transaction */}
         <HeadingBasic
           animationDelay={0.9}
-          heading="UPI Trasaction"
-          id={"upiTransaction"}
-          url="#upiTransaction"
+          heading="UPI IDs"
+          id={"upiids"}
+          url="#upiids"
+          description={
+            <p className="sm:text-xl text-lg px-[1.3rem]">
+              <li>mobile.bigbeastishank@sbi</li>
+              <li>mobile.bigbeastishank-1@okaxis</li>
+              <li>mobile.bigbeastishank-1@okicici</li>
+            </p>
+          }
         />
-
-        {/* Payment img */}
-        <ul className="justify-center items-center text-center mt-5 flex flex-wrap md:gap-9 gap-y-10">
-          {/* Card */}
-          {sponsorAmount.map((data, index) => (
-            <motion.li
-              key={index}
-              initial={{ y: 50, scale: 0.4, opacity: 0 }}
-              animate={{ y: 0, scale: 1, opacity: 1 }}
-              transition={{ delay: 1.2 + (index * 0.3) / 2 }}
-              className="select-none"
-            >
-              <div className="bg-[#0A0C0E] border border-[#1793D1]/20 flex flex-col overflow-auto rounded-2xl hover:scale-[1.1] transition-all hover:shadow-xl shadow-md hover:shadow-[#1793D1]/50 shadow-[#1793D1]/50">
-                {/* Image */}
-                <Image
-                  src={data.imageUrl}
-                  alt={data.amount}
-                  className="p-5 md:w-[320px] md:h-[413.5px] w-[373.3px] h-[482.5px]"
-                />
-
-                <div className="flex mb-5">
-                  {/*
-
-                Currently This button is not working due to some upi encoding. (Not my problem it's UPI Problem)
-                
-                */}
-                  {/* Open UPI */}
-                  {/* <Link
-                  href={data.upiLink}
-                  target="_blank"
-                  className="m-auto group/chm hover:scale-[1.1] transition-all select-none outline-none"
-                >
-                  <button className={"outline-none"}>
-                    <p className="md:text-lg text-base text-[#F6F9FC] py-1 px-3 border border-[#1793D1] rounded-full bg-[#0A0C0E] group-hover/chm:shadow-lg shadow-md group-hover/chm:shadow-[#1793D1]/50 shadow-[#1793D1]/50 transition-all">
-                      Open UPI
-                    </p>
-                  </button>
-                </Link> */}
-
-                  {/* Download qrcode */}
-                  <Link
-                    download
-                    href={data.imageUrl.src}
-                    target="_blank"
-                    className="m-auto group/chm hover:scale-[1.1] transition-all select-none outline-none"
-                  >
-                    <button className={"outline-none"}>
-                      <p className="md:text-lg text-base text-[#F6F9FC] py-1 px-3 border border-[#1793D1] rounded-full bg-[#050607] group-hover/chm:shadow-lg shadow-md group-hover/chm:shadow-[#1793D1]/50 shadow-[#1793D1]/50 transition-all">
-                        Download QR
-                      </p>
-                    </button>
-                  </Link>
-                </div>
-              </div>
-            </motion.li>
-          ))}
-        </ul>
 
         {/* Divider */}
         <div className="w-full h-[.125rem] my-12 bg-[#1793D1]" />
 
         {/* Non UPI Transaction */}
         <HeadingBasic
-          animationDelay={2.1}
-          heading="Non UPI Trasaction"
-          id={"nonUPITransaction"}
-          url="#nonUPITransaction"
+          animationDelay={1.5}
+          heading="Direct Bank Transaction"
+          id={"banktransaction"}
+          url="#banktransaction"
           description={
-            <>
-              <p className={"font-bold"}>
-                Currently, you can only sponsor with UPI (in India). Non-UPI
-                transactions like netbanking (for domestic and international
-                currency) & crypto are coming soon. Thanks for waiting :)
-              </p>
-            </>
+            <p className="text-xl px-[1.3rem]">
+              <strong>Name:&nbsp;</strong> PRANJAL
+              <br />
+              <strong>Account No:&nbsp;</strong> 243701500554
+              <br />
+              <strong>IFSC:&nbsp;</strong> ICIC0002437
+              <br />
+              <strong>Account type:&nbsp;</strong> Savings
+            </p>
           }
         />
       </div>
