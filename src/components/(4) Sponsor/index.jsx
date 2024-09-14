@@ -8,9 +8,15 @@ import {
   barPercentage,
   sponsorGoalAmount,
 } from "@@/data/SponsorData";
-import Image from "next/image";
 
 export default function SponsorComponent() {
+  const currencyFormatter = new Intl.NumberFormat("en-IN", {
+    style: "currency",
+    currency: "INR",
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0
+});
+
   return (
     <div id="sponsorme" className="px-5 scroll-mt-24">
       {/* Main Heading */}
@@ -84,11 +90,11 @@ export default function SponsorComponent() {
           id={"upiids"}
           url="#upiids"
           description={
-            <p className="sm:text-xl text-lg px-[1.3rem]">
+            <ul className="sm:text-xl text-lg px-[1.3rem]">
               <li>mobile.bigbeastishank@sbi</li>
               <li>mobile.bigbeastishank-1@okaxis</li>
               <li>mobile.bigbeastishank-1@okicici</li>
-            </p>
+            </ul>
           }
         />
 
@@ -128,8 +134,11 @@ export default function SponsorComponent() {
       >
         {/* Text */}
         <p className="text-[#F6F9FC] md:text-3xl text-2xl font-semibold mb-2 mx-auto">
-          Monthly Goal: <span className={"text-[#0088CC]"}>{goalReached}</span>/
-          <span className={"text-[#FF3333]"}>{sponsorGoalAmount}</span>₹{" "}
+          Monthly Goal: <span className={"text-[#0088CC]"}>{currencyFormatter.format(goalReached)}</span>
+          &nbsp;/&nbsp;
+          <span className={"text-[#FF3333]"}>
+            {currencyFormatter.format(sponsorGoalAmount)}
+          </span>
         </p>
 
         {/* Progress Bar */}
