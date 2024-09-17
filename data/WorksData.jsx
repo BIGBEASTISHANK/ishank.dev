@@ -1,5 +1,12 @@
 // Game Projects
 export const gameProjects = [
+  // Project A24
+  {
+    title: "Project A24",
+    description:
+      "This is an upcomming horror game, It is based on my dreams. This game is being made on Unreal Engine and strictly on C++",
+    projectUrl: "https://github.com/BIGBEASTISHANK/Project-A24",
+  },
   // Drag your tires game
   {
     title: "Drag Your Tires",
@@ -108,7 +115,8 @@ export const websiteProjects = [
   // Initial React Site
   {
     title: "Initial React Site",
-    description: "This was the website that I first made on React, and it was also my first step to becoming a great web developer.",
+    description:
+      "This was the website that I first made on React, and it was also my first step to becoming a great web developer.",
     projectUrl: "https://github.com/BIGBEASTISHANK/Initial-Websites/tree/react",
   },
 
@@ -158,9 +166,9 @@ export const otherProjects = [
 
   // BIG BEAST Bot
   {
-    title: "Discord Bot",
+    title: "BBeast Discord Bot",
     description:
-      "This is my Discord bot, 'BIG BEAST'. You can get this on top.gg. It is a multi-purpose bot. If you want to go to its support server",
+      "This is my Discord bot, 'BBeast'. Sadely it had been shutdown.",
     projectUrl: "https://github.com/BIGBEASTISHANK/BBeast-Discord-Bot",
   },
 ];
