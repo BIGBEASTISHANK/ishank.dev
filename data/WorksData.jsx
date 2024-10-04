@@ -1,12 +1,5 @@
 // Game Projects
 export const gameProjects = [
-  // Project A24
-  {
-    title: "Project A24",
-    description:
-      "This is an upcomming horror game, It is based on my dreams. This game is being made on Unreal Engine and strictly on C++",
-    projectUrl: "https://github.com/BIGBEASTISHANK/Project-A24",
-  },
   // Drag your tires game
   {
     title: "Drag Your Tires",
