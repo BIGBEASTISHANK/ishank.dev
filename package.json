@@ -1,7 +1,7 @@
 {
   "name": "bigbeastishank.com",
   "version": "V6",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
