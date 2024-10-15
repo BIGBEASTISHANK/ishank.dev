@@ -117,7 +117,7 @@ function ProjectList({ id = "", name = "", projectData = [], titleDelay = 0.7 })
               transition={{ delay: listAnimationDelay + (index * 0.3) / 2 }}
               className="scroll-mt-24"
             >
-              <div className="mb-5 flex flex-col bg-[#0A0C0E] border border-[#1793D1]/20 p-5 rounded-3xl hover:scale-[1.03] transition-all hover:shadow-lg shadow-md hover:shadow-[#1793D1]/50 shadow-[#1793D1]/50">
+              <div className="group mb-5 flex flex-col bg-[#0A0C0E] border border-[#1793D1]/50 hover:border-[#FF3333]/80 p-5 rounded-3xl hover:scale-[1.03] transition-all hover:shadow-lg shadow-md hover:shadow-[#FF3333]/80 shadow-[#1793D1]/50">
                 {/* Project title */}
                 <div className="flex">
                   <Link href={`#${data.title}`} className={"outline-none"}>
@@ -133,16 +133,16 @@ function ProjectList({ id = "", name = "", projectData = [], titleDelay = 0.7 })
                 </p>
 
                 {/* Read more txt */}
-                <a
+                <Link
                   href={data.projectUrl}
                   target="_blank"
                   className="text-semibold hover:scale-[1.1] transition-all md:text-base text-sm mr-auto outline-none"
                 >
-                  <span className="flex group/readMore py-[0.15rem] px-[1rem] border border-[#1793D1]/20 rounded-full bg-[#050607] hover:shadow-md shadow-sm hover:shadow-[#1793D1]/30 transition-all shadow-[#1793D1]/30">
+                  <span className="flex group/readMore py-[0.15rem] px-[1rem] border border-[#1793D1]/50 group-hover:border-[#FF3333]/70 rounded-full bg-[#050607] hover:shadow-md shadow-sm hover:shadow-[#1793D1]/30 group-hover:shadow-[#FF3333]/50 transition-all shadow-[#1793D1]/30">
                     View Project
                     <FaEye className="my-auto ml-2 group-hover/readMore:scale-[1.1] transition-all" />
                   </span>
-                </a>
+                </Link>
               </div>
             </motion.li>
           ))}

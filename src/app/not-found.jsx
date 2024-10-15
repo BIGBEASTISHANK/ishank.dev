@@ -1,4 +1,4 @@
-import GoBackButton from "@/utility/GoBackButton";
+import GoToButton from "@/utility/GoToButton";
 import HeadingBasic from "@/utility/HeadingBasic";
 
 // Meta data
@@ -51,10 +51,10 @@ export default function NotFound() {
           description={
             <>
               <p>
-                Lost in the digital maze! It appears you've stumbled upon a
-                404 Not Found - the elusive page seems to have slipped through
-                the cracks. Fear not, intrepid explorer! While this page may be
-                off the grid, our virtual compass is recalibrating to guide you
+                Lost in the digital maze! It appears you've stumbled upon a 404
+                Not Found - the elusive page seems to have slipped through the
+                cracks. Fear not, intrepid explorer! While this page may be off
+                the grid, our virtual compass is recalibrating to guide you
                 back. Feel free to hit the back button, check the URL for typos,
                 or visit our homepage to embark on a new adventure. We apologize
                 for the inconvenience and appreciate your patience as we tidy up
@@ -64,8 +64,11 @@ export default function NotFound() {
           }
         />
 
-        {/* Goback button */}
-        <GoBackButton animationDelay={0.7} />
+        {/* Go to otherplace */}
+        <div className="flex">
+          <GoToButton animationDelay={0.7} title={"Go To Home"} link={"/"} />
+          <GoToButton animationDelay={0.7} title={"View Work"} link={"/works"} customCSS={"ml-3"}/>
+        </div>
       </div>
     </div>
   );

@@ -2,6 +2,12 @@
   "name": "bigbeastishank.com",
   "version": "V6",
   "private": false,
+  "licenses": [
+    {
+      "type": "GPL-3.0-only",
+      "url": "https://opensource.org/license/gpl-3-0"
+    }
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",

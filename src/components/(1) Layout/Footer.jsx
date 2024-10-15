@@ -20,7 +20,7 @@ export default function Footer() {
 
       {/* Note */}
       <p className="md:text-base text-sm text-gray-600">
-        Note: All the text has been written by Ishank and paraphrased by AI.
+        Note: All the text has been written by Ishank and paraphrased by QuillBot.
       </p>
 
       {/* Social Media Icons */}

@@ -1,5 +1,6 @@
 // Icons
 import {
+  SiC,
   SiGit,
   SiSass,
   SiCss3,
@@ -37,6 +38,10 @@ export const skills = [
   {
     name: "C#",
     icon: SiCsharp,
+  },
+  {
+    name: "C",
+    icon: SiC,
   },
   {
     name: "Python",
