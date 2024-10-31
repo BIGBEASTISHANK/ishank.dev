@@ -2,19 +2,20 @@
 import {
   SiC,
   SiGit,
+  SiDart,
   SiSass,
   SiCss3,
   SiHtml5,
   SiLinux,
   SiMysql,
   SiReact,
-  SiKrita,
   SiUnity,
   SiNeovim,
   SiCsharp,
   SiGithub,
   SiReplit,
   SiPython,
+  SiFlutter,
   SiBlender,
   SiMongodb,
   SiGnubash,
@@ -64,8 +65,16 @@ export const skills = [
     icon: SiTailwindcss,
   },
   {
+    name: "Dart",
+    icon: SiDart,
+  },
+  {
     name: "Java Script",
     icon: SiJavascript,
+  },
+  {
+    name: "Flutter",
+    icon: SiFlutter,
   },
   {
     name: "React",
@@ -116,10 +125,6 @@ export const skills = [
   {
     name: "Blender",
     icon: SiBlender,
-  },
-  {
-    name: "Krita",
-    icon: SiKrita,
   },
   {
     name: "Git",
