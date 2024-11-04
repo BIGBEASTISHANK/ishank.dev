@@ -133,6 +133,13 @@ export const websiteProjects = [
 //
 // Other Projects
 export const otherProjects = [
+  // Rescue Relay
+  {
+    title: "Rescue Relay",
+    description:
+      "It's an open-source, crowdsourced software for catastrophe reporting where local residents can share information when emergency services publish disasters. Following analysis of data, our app will advise the departments on the best course of action.",
+    projectUrl: "https://github.com/BIGBEASTISHANK/RescueRelay",
+  },
   // BBI License
   {
     title: "BBI License",
