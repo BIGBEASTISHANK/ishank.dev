@@ -76,7 +76,7 @@ export const skills = [
     icon: SiFlutter,
   },
   {
-    name: "React",
+    name: "React.js",
     icon: SiReact,
   },
   {
