@@ -13,7 +13,6 @@ import {
   SiNeovim,
   SiCsharp,
   SiGithub,
-  SiReplit,
   SiPython,
   SiFlutter,
   SiBlender,
@@ -133,9 +132,5 @@ export const skills = [
   {
     name: "Mongo DB",
     icon: SiMongodb,
-  },
-  {
-    name: "Replit",
-    icon: SiReplit,
   },
 ];
