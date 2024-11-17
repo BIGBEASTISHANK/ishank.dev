@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import logo from "@@/public/img/main/BBILogo.png";
+import { ReactTyped } from "react-typed";
 
 export default function Hero() {
   return (
@@ -30,7 +31,15 @@ export default function Hero() {
         transition={{ delay: 0.5 }}
         className="font-bold md:text-xl text-lg md:mb-7 mb-4"
       >
-        I'm Ishank ~ OSS Game & Web Developer
+        I'm Ishank ~ {" "}
+        <ReactTyped
+          strings={["Web Developer", "Game Developer", "Networking Enthusiast", "Pentester"]}
+          typeSpeed={60}
+          backSpeed={40}
+          startDelay={600}
+          backDelay={800}
+          loop
+        />
       </motion.h1>
 
       {/* Text */}

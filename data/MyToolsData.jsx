@@ -15,7 +15,6 @@ import {
   SiGithub,
   SiPython,
   SiFlutter,
-  SiBlender,
   SiMongodb,
   SiGnubash,
   SiVscodium,
@@ -29,7 +28,7 @@ import {
 import { TbBrandFramerMotion } from "react-icons/tb";
 
 // Skills
-export const skills = [
+export const myTools = [
   // Programming Languages
   {
     name: "C++",
@@ -120,10 +119,6 @@ export const skills = [
   {
     name: "GitHub",
     icon: SiGithub,
-  },
-  {
-    name: "Blender",
-    icon: SiBlender,
   },
   {
     name: "Git",

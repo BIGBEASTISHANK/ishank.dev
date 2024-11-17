@@ -1,21 +1,21 @@
 "use client";
 import { motion } from "framer-motion";
-import { skills } from "@@/data/SkillsData";
+import { myTools } from "@@/data/MyToolsData";
 import HeadingBasic from "@/utility/HeadingBasic";
 
-export default function Skills() {
+export default function MyTools() {
   return (
-    <div id="skills" className="px-5 scroll-mt-24">
+    <div id="myTools" className="px-5 scroll-mt-24">
       {/* Headings */}
       <HeadingBasic
-        heading="Skills"
-        url="#skills"
+        heading="My Tools"
+        url="#myTools"
         animationDelay={2.5}
         description={
           <>
             <p>
-              Versatile skills for digital excellence, spanning web development,
-              programming, graphic design, and creative content.
+              My Versatile tools for digital excellence, spanning web development,
+              programming, and creative content.
             </p>
           </>
         }
@@ -24,7 +24,7 @@ export default function Skills() {
       {/* Section content */}
       <ul className="justify-center items-center text-center mt-5 flex flex-wrap md:gap-2 gap-x-1 gap-y-2">
         {/* Card */}
-        {skills.map((data, index) => (
+        {myTools.map((data, index) => (
           <motion.li
             key={index}
             initial={{ y: 50, scale: 0.4, opacity: 0 }}
