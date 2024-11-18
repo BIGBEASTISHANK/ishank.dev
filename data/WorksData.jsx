@@ -24,22 +24,6 @@ export const gameProjects = [
     projectUrl: "https://github.com/BIGBEASTISHANK/Sussy-Shooter",
   },
 
-  // Suspicious runner game
-  {
-    title: "Suspicious Runner",
-    description:
-      "Parkour as an Among Us character. Dash, jump, and conquer challenges in this fast-paced adventure.",
-    projectUrl: "https://github.com/BIGBEASTISHANK/Suspicious-Runner",
-  },
-
-  // Platform Shooter game
-  {
-    title: "Platform Shooter",
-    description:
-      "Jump, shoot, conquer: a platformer where you fend off UFOs in the sky!",
-    projectUrl: "https://github.com/BIGBEASTISHANK/Platform-Shooter",
-  },
-
   // Beast Race 3d game
   {
     title: "Beast Race",
@@ -154,14 +138,6 @@ export const otherProjects = [
     description:
       "This is my dotfiles (config) for my Arch Linux window managers, mainly BSPWM, Polybar, Rofi, etc.",
     projectUrl: "https://github.com/BIGBEASTISHANK/dotfiles",
-  },
-
-  // Mathcus
-  {
-    title: "Mathcus",
-    description:
-      "It is for Abacus practice. You just run this python program, it will give you sums to solve, on inputing the answer, it will be evaluated and give you output as true or false.",
-    projectUrl: "https://github.com/BIGBEASTISHANK/Mathcus",
   },
 
   // BIG BEAST Bot
