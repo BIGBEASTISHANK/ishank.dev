@@ -12,7 +12,7 @@ export const gameProjects = [
   {
     title: "Shimrun Dash",
     description:
-      "Game where you have to dodge obsticles at high speed but with some twist. Inspired by the Geometry Dash game.",
+      "Game where you have to dodge obstacles at high speed but with some twist. Inspired by the Geometry Dash game.",
     projectUrl: "https://github.com/BIGBEASTISHANK/Shimrun-Dash",
   },
 
