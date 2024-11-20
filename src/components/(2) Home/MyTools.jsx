@@ -22,14 +22,14 @@ export default function MyTools() {
       />
 
       {/* Section content */}
-      <ul className="justify-center items-center text-center mt-5 flex flex-wrap md:gap-2 gap-x-1 gap-y-2">
+      <ul className="justify-center items-center text-center mt-5 flex flex-wrap gap-x-8 gap-y-5 min-[439px]:gap-[0.3rem] min-[477px]:gap-[0.9rem] min-[520px]:gap-[1.5rem] min-[540px]:gap-[0.3rem] min-[563px]:gap-[0.62rem]">
         {/* Card */}
         {myTools.map((data, index) => (
           <motion.li
             key={index}
             initial={{ y: 50, scale: 0.4, opacity: 0 }}
             animate={{ y: 0, scale: 1, opacity: 1 }}
-            transition={{ delay: 3 + (index * 0.3) / 2 }}
+            // transition={{ delay: 3 + (index * 0.3) / 2 }}
             className="select-none"
           >
             <div className="group bg-[#0A0C0E] border border-[#1793D1]/50 hover:border-[#00FF00]/70 flex flex-col overflow-auto h-[8rem] md:w-[8rem] w-[6rem] rounded-2xl hover:scale-[1.1] transition-all hover:shadow-xl shadow-md hover:shadow-[#00FF00]/80 shadow-[#1793D1]/50">
@@ -42,7 +42,7 @@ export default function MyTools() {
               <div className="w-full h-[.05rem] bg-[#1793D1] group-hover:bg-[#00FF00]" />
 
               {/* Name */}
-              <p className="md:text-base text-sm my-auto px">{data.name}</p>
+              <p className="md:text-base text-sm my-auto px-1">{data.name}</p>
             </div>
           </motion.li>
         ))}
