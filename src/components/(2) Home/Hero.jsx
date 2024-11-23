@@ -33,7 +33,7 @@ export default function Hero() {
       >
         I'm Ishank ~ {" "}
         <ReactTyped
-          strings={["Web Developer", "Game Developer", "Networking Enthusiast", "Pentester"]}
+          strings={["Web Developer", "Game Developer", "Networking Enthusiast", "Pentester", "Server Administrator"]}
           typeSpeed={60}
           backSpeed={40}
           startDelay={600}
@@ -59,7 +59,7 @@ export default function Hero() {
           transition={{ delay: 0.8 }}
         >
           I not only work on creating websites & games, but I also explore the
-          complexity of networking and penetration testing. I find joy in
+          complexity of networking, servers & pentesting. I find joy in
           securing computer systems & networks. I use Arch BTW!
         </motion.p>
       </div>
