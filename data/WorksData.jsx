@@ -144,7 +144,7 @@ export const otherProjects = [
   {
     title: "BBeast Discord Bot",
     description:
-      "This is my Discord bot, 'BBeast'. Sadely it had been shutdown.",
+      "This is my Discord bot, 'BBeast'. Sadly it had been shutdown.",
     projectUrl: "https://github.com/BIGBEASTISHANK/BBeast-Discord-Bot",
   },
 ];
