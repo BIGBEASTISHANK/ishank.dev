@@ -63,7 +63,7 @@ export const websiteProjects = [
   {
     title: "bigbeastishank.com V3",
     description:
-      "This was the website I created before this one, it was mainly for blogs but also contain my projects.",
+      "This website was mainly for blogs but also contain my projects.",
     projectUrl: "https://github.com/BIGBEASTISHANK/bigbeastishank.com/tree/V3",
   },
 
